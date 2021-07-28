@@ -23,9 +23,9 @@ async def start(client, message):
     await message.reply_text(
         text=f"Hello {message.from_user.first_name}!\n<b>I am Telegram to telegra.ph Image Uploader Bot</b>\n\n▷ Just give me a media under 5MB.\n▷ Then I will download it.\n▷ I will then upload it to the telegra.ph link.",
         disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👥 Group", url=f"https://t.me/iZaute/5"), InlineKeyboardButton(text="Channel 📢", url=f"https://t.me/iZaute/6"), ],
-                                           [InlineKeyboardButton(text="🤫 Source", url=f"https://github.com/ZauteKm/Image-Uploader"), InlineKeyboardButton(text="GitHup 🤪", url=f"https://githup.com/ZauteKm"), InlineKeyboardButton(text="Bot Lists 🤖", url=f"https://t.me/iZaute/8"),],
-                                           [InlineKeyboardButton(text="⚜️ Subscribe Now YouTube ⚜️", url=f"https://youtube.com/playlist?list=PLzkiTywVmsSfmhaDdWNZ5PRmmMKGTIxPJ")]])
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="TENDKOTTA ❤️", url=f"https://telegram.me/tendkotta"), InlineKeyboardButton(text="TharamaanaMovies", url=f"https://telegram.me/tharamaanamovies"), ],
+                                           [InlineKeyboardButton(text="Youtube DL", url=f"https://telegram.me/YouTubedownloadergroup1"), InlineKeyboardButton(text="Channel List 📢", url=f"https://telegram.mr/tharamaanateambot"), InlineKeyboardButton(text="Bot Lists 🤖", url=f"https://telegram.me/tharamaanateambot"),],
+                                           [InlineKeyboardButton(text="🤖 Movie Request Bot 🤖", url=f"https://telegram.me/Movie_Request_v3_Robot")]])
         )
 
 
