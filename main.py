@@ -41,13 +41,13 @@ async def getimage(client, message):
     try:
         response = upload_file(img_path)
     except Exception as error:
-        await dwn.edit_text(f"<b>Oops something went wrong\n Please Contact @tharamaanaadmin.</b>")
+        await dwn.edit_text(f"<b>Oops something went wrong\n Please ▷Contact @ZauteBot.</b>")
         return
     await dwn.edit_text(
-        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>,\n\n<b> Create By</b> [Tharamaana@dmin 😎](https://telegram.me/tharamaanaadmin)",
+        text=f"<b>Link :-</b> <code>https://telegra.ph{response[0]}</code>,\n\n<b>▷ Please Subscribe</b> ❤️ [@TENDKOTTA](https://t.me/TENDKOTTA)",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔗 Open Link", url=f"https://telegra.ph{response[0]}"), InlineKeyboardButton(text="Share Link 👥", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}"), ],
-                                           [InlineKeyboardButton(text="🤖 Movie Request Bot 🤖", url="https://t.me/share/url?url=Hi%20Friend%2C%0D%0AAm%20Introducing%20a%20Powerful%20%2A%2ATelegraph%20Image%20Upload%20Bot%2A%2A%20for%20Free.%0D%0A%2A%2ABot%20Link%2A%2A%20%3A%20%40TGraphZKbot")]])
+                                           [InlineKeyboardButton(text="🤖 Movie Request Bot 🤖", url="https://telegram.me/movie_request_v3_robot")]])
         )
     shutil.rmtree(tmp, ignore_errors=True)
 
